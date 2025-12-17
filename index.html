@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kategori usia</title>
+    <script>
+        window.alert("Welcome To My Web")
+    </script>
+</head>
+<body>
+    <script>
+        document.write("<b>Kategori Usia Anda</b><br>");
+
+        var Usia = prompt("Masukan Usia Anda","");
+        var Keterangan = "";
+
+        if (Usia>=65){
+            Keterangan = "Manula";
+        }
+        else if (Usia>=50){
+            Keterangan = "Orang tua";
+        }
+        else if (Usia>=20){
+            Keterangan = "Dewasa";
+        }
+        else if (Usia>=12){
+            Keterangan = "Remaja";
+        }
+        else if (Usia>=5){
+            Keterangan = "Anak-Anak";
+        }
+        else if (Usia>=0){
+            Keterangan = "Balita"
+        }
+        else {
+            Keterangan = "Usia Tidak valid";
+        }
+
+        document.write("Usian Anda:" +Usia+ "Tahun<br>");
+        document.write("Keterangan" +Keterangan);
+    </script>
+</body>
+</html>
